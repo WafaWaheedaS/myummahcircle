@@ -5,13 +5,26 @@ class LandingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(
-          children: <Widget>[
-            Center(
-              heightFactor: 10,
-              child: Text('Sisters of Islam Qatar'),
-            ),
-          ],
+        backgroundColor: Color(0xFF880E4F),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Image(
+                height: 100,
+                image: AssetImage('images/sistersofislam-qa-whitepink.png'),
+              ),
+              Padding(
+                  padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+                  child: Text(
+                    'Sisters of Islam Qatar',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30),
+                  )),
+            ],
+          ),
         ),
       ),
     );
