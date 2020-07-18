@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sisters_of_islam_qatar/components/login_button.dart';
+import 'package:sisters_of_islam_qatar/pages/home_page.dart';
 
 class LandingPage extends StatelessWidget {
   @override
@@ -26,23 +28,15 @@ class LandingPage extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
-                child: Container(
-                  height: 70,
-                  margin: EdgeInsets.symmetric(horizontal: 70, vertical: 30),
-                  alignment: Alignment.center,
-                  child: Text(
-                    'LOG IN',
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                    ),
-                  ),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(25),
-                    color: Colors.white12,
+                child: GestureDetector(
+                  child: LoginButton(),
+                  onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomePage()),
                   ),
                 ),
               ),
+//                      LoginButton()),
               Text(
                 'Don`t have an account yet? SIGN UP here',
                 style: TextStyle(
