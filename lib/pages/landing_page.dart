@@ -1,10 +1,7 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:sisters_of_islam_qatar/components/login_button.dart';
 import 'package:sisters_of_islam_qatar/pages/login_page.dart';
 import 'package:sisters_of_islam_qatar/pages/sign_up_page.dart';
-import 'package:sisters_of_islam_qatar/pages/home_page.dart';
 
 class LandingPage extends StatelessWidget {
   @override
