@@ -1,5 +1,9 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:sisters_of_islam_qatar/components/login_button.dart';
+import 'package:sisters_of_islam_qatar/pages/login_page.dart';
+import 'package:sisters_of_islam_qatar/pages/sign_up_page.dart';
 import 'package:sisters_of_islam_qatar/pages/home_page.dart';
 
 class LandingPage extends StatelessWidget {
@@ -32,18 +36,55 @@ class LandingPage extends StatelessWidget {
                   child: LoginButton(),
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()),
+                    MaterialPageRoute(builder: (context) => LoginPage()),
                   ),
                 ),
               ),
-//                      LoginButton()),
               Text(
-                'Don`t have an account yet? SIGN UP here',
+                'Don`t have an account yet? ',
                 style: TextStyle(
                     color: Colors.grey[200],
                     fontWeight: FontWeight.normal,
                     fontSize: 15),
               ),
+              FlatButton(
+                textColor: Colors.blue,
+                child: Text(
+                  'Sign Up',
+                  style: TextStyle(fontSize: 20),
+                ),
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SignUpPage()),
+                ),
+              ),
+//              Center(
+//                child: RichText(
+//                  text: TextSpan(
+//                    children: [
+//                      TextSpan(
+//                        text: 'Don`t have an account yet? ',
+//                        style: TextStyle(
+//                            color: Colors.grey[200],
+//                            fontWeight: FontWeight.normal,
+//                            fontSize: 15),
+//                      ),
+//
+//                      TextSpan(
+//                        text: 'SIGN UP here',
+//                        style: TextStyle(color: Colors.blue),
+//                        recognizer: TapGestureRecognizer()
+//                          ..onTap = () => Navigator.push(
+//                                context,
+//                                MaterialPageRoute(
+//                                    builder: (context) => HomePage()),
+//                              ),
+//                      ),
+//                    ],
+//                  ),
+//                ),
+//              ),
+//
             ],
           ),
         ),
