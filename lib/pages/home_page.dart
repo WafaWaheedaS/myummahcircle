@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(15.0),
               child: Text(
-                'Home Page',
+                'The Home Page',
                 style: TextStyle(
                     color: Colors.grey[900],
                     fontWeight: FontWeight.bold,
