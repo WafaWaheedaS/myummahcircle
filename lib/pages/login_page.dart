@@ -49,7 +49,7 @@ class LoginPage extends StatelessWidget {
         ),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(25),
-          color: Color(0xFF880E4F),
+          color: kAppPrimaryColor,
         ),
       ),
       onTap: () => Navigator.push(
@@ -68,7 +68,7 @@ class LoginPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF880E4F),
+        backgroundColor: kAppPrimaryColor,
         title: Text(kAppName),
         centerTitle: true,
       ),
@@ -78,6 +78,18 @@ class LoginPage extends StatelessWidget {
           padding: EdgeInsets.only(left: 24.0, right: 24.0),
           children: <Widget>[
             logo,
+            Padding(
+              padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+              child: Center(
+                child: Text(
+                  kAppName,
+                  style: TextStyle(
+                      color: kAppPrimaryColor,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 30),
+                ),
+              ),
+            ),
             SizedBox(height: 48.0),
             email,
             SizedBox(height: 8.0),

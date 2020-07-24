@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 const kAppName = 'Ikhwat';
+const kAppPrimaryColor = Color(0xFF880E4F);
 const kTextStyle = TextStyle(
   fontSize: 16,
 );

@@ -71,7 +71,7 @@ class SignUpPage extends StatelessWidget {
         ),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(25),
-          color: Color(0xFF880E4F),
+          color: kAppPrimaryColor,
         ),
       ),
       onTap: () => Navigator.push(
@@ -93,7 +93,7 @@ class SignUpPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF880E4F),
+        backgroundColor: kAppPrimaryColor,
         title: Text(kAppName),
         centerTitle: true,
       ),

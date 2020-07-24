@@ -14,7 +14,7 @@ class UserPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF880E4F),
+        backgroundColor: kAppPrimaryColor,
         title: Text(kAppName),
         centerTitle: true,
       ),
@@ -159,7 +159,7 @@ class UserPage extends StatelessWidget {
                     StarDisplayWidget(
                       value: 4,
                       filledStar:
-                          Icon(Icons.star, color: Color(0xFF880E4F), size: 32),
+                          Icon(Icons.star, color: kAppPrimaryColor, size: 32),
                       unfilledStar: Icon(Icons.star, color: Colors.grey),
                     ),
                     SizedBox(
@@ -180,7 +180,7 @@ class UserPage extends StatelessWidget {
                     StarDisplayWidget(
                       value: 3,
                       filledStar:
-                          Icon(Icons.star, color: Color(0xFF880E4F), size: 32),
+                          Icon(Icons.star, color: kAppPrimaryColor, size: 32),
                       unfilledStar: Icon(Icons.star, color: Colors.grey),
                     ),
                     SizedBox(
@@ -197,7 +197,7 @@ class UserPage extends StatelessWidget {
           RaisedButton(
             child: Text("Send Message"),
             onPressed: () {},
-            color: Color(0xFF880E4F),
+            color: kAppPrimaryColor,
             textColor: Colors.white70,
             padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
             splashColor: Colors.grey,

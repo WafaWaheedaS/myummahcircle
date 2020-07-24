@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sisters_of_islam_qatar/components/login_button.dart';
+import 'package:sisters_of_islam_qatar/constants.dart';
 import 'package:sisters_of_islam_qatar/pages/login_page.dart';
 import 'package:sisters_of_islam_qatar/pages/sign_up_page.dart';
 
@@ -8,7 +9,7 @@ class LandingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Color(0xFF880E4F),
+        backgroundColor: kAppPrimaryColor,
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -20,7 +21,7 @@ class LandingPage extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
                 child: Text(
-                  'Sisters of Islam Qatar',
+                  kAppName,
                   style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,

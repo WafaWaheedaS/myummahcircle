@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:sisters_of_islam_qatar/constants.dart';
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF880E4F),
+        backgroundColor: kAppPrimaryColor,
         title: Image.asset(
           'images/sistersofislam-qa-whitepink.png',
           height: 50,
