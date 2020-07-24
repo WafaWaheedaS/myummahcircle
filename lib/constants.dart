@@ -1,6 +1,17 @@
 import 'package:flutter/material.dart';
 
 const kAppName = 'Ikhwat';
+const kAppPrimaryColor = Color(0xFF880E4F);
+final kAppBar = AppBar(
+  backgroundColor: kAppPrimaryColor,
+  title: Image.asset(
+    'images/sistersofislam-qa-whitepink.png',
+    height: 50,
+    fit: BoxFit.cover,
+  ),
+  centerTitle: true,
+);
+
 const kTextStyle = TextStyle(
   fontSize: 16,
 );
