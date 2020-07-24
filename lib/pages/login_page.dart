@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sisters_of_islam_qatar/constants.dart';
 import 'package:sisters_of_islam_qatar/pages/home_page.dart';
 
 class LoginPage extends StatelessWidget {
@@ -68,7 +69,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF880E4F),
-        title: Text('Sisters of Islam Qatar'),
+        title: Text(kAppName),
         centerTitle: true,
       ),
       body: Center(
