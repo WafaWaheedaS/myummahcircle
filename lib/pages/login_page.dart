@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sisters_of_islam_qatar/constants.dart';
 import 'package:sisters_of_islam_qatar/pages/home_page.dart';
+import 'package:sisters_of_islam_qatar/pages/sign_up_page.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -66,6 +67,17 @@ class LoginPage extends StatelessWidget {
       onPressed: () {},
     );
 
+    final signUp = FlatButton(
+      child: Text(
+        'Sign Up  | Forgot Password?',
+        style: TextStyle(color: Colors.black54),
+      ),
+      onPressed: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => SignUpPage()),
+      ),
+    );
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kAppPrimaryColor,
@@ -96,7 +108,7 @@ class LoginPage extends StatelessWidget {
             password,
             SizedBox(height: 24.0),
             loginButton,
-            forgotPassword
+            signUp,
           ],
         ),
       ),
