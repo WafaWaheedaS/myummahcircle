@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:sisters_of_islam_qatar/components/near_by_widget.dart';
 import 'package:sisters_of_islam_qatar/components/search_bar.dart';
 import 'package:sisters_of_islam_qatar/constants.dart';
+import 'package:flutter/widgets.dart';
+import 'package:sisters_of_islam_qatar/pages/create_post_page.dart';
+import 'package:sisters_of_islam_qatar/pages/extended_search_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -19,7 +22,13 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              SearchBar(),
+              GestureDetector(
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ExtendedSearchPage()),
+                ),
+                child: SearchBar(),
+              ),
               Padding(
                 padding: const EdgeInsets.all(25.0),
                 child: Text(
@@ -48,6 +57,14 @@ class HomePage extends StatelessWidget {
             ],
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => CreatePostPage()),
+        ),
+        child: Icon(Icons.add),
+        backgroundColor: kAppPrimaryColor,
       ),
     );
   }
