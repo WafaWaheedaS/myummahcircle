@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sisters_of_islam_qatar/components/star_widget.dart';
 import 'package:sisters_of_islam_qatar/components/post_widget.dart';
 import 'package:sisters_of_islam_qatar/constants.dart';
+import 'package:sisters_of_islam_qatar/pages/send_message_page.dart';
 
 class UserPage extends StatelessWidget {
   final String homeImage =
@@ -20,7 +21,7 @@ class UserPage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          _buildInfoSection(),
+          _buildInfoSection(context),
           SizedBox(
             height: 16,
           ),
@@ -29,7 +30,7 @@ class UserPage extends StatelessWidget {
     );
   }
 
-  Widget _buildInfoSection() {
+  Widget _buildInfoSection(context) {
     return Card(
       margin: EdgeInsets.zero,
       child: Column(
@@ -196,7 +197,10 @@ class UserPage extends StatelessWidget {
           ),
           RaisedButton(
             child: Text("Send Message"),
-            onPressed: () {},
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => MyMessagePage()),
+            ),
             color: kAppPrimaryColor,
             textColor: Colors.white70,
             padding: EdgeInsets.fromLTRB(10, 10, 10, 10),

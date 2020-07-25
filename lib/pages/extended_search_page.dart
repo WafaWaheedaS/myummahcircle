@@ -149,9 +149,25 @@ class SelectedItemWidget extends StatelessWidget {
                       ),
                       subtitle: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                        child: Text(
-                          'Ask me about Islamic Mindfulness and Marriage Advice.',
-                          style: TextStyle(color: Colors.grey, fontSize: 15),
+                        child: RichText(
+                          text: TextSpan(
+                            text: 'Ask me about Islamic',
+                            style: TextStyle(color: Colors.grey, fontSize: 15),
+                            children: <TextSpan>[
+                              TextSpan(
+                                text: ' Mindfulness',
+                                style: TextStyle(
+                                    color: Colors.black54,
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              TextSpan(
+                                text: ' and Marriage Advice.',
+                                style:
+                                    TextStyle(color: Colors.grey, fontSize: 15),
+                              )
+                            ],
+                          ),
                         ),
                       ),
                       onTap: () => Navigator.push(
