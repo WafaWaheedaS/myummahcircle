@@ -4,14 +4,6 @@ import 'package:sisters_of_islam_qatar/components/search_bar.dart';
 import 'package:sisters_of_islam_qatar/constants.dart';
 
 class HomePage extends StatelessWidget {
-  final nearByData = [
-    {
-      'id': 1,
-      'title': 'Allah`s love for Ibrahim (AS)',
-      'subtitle': 'Sisters only Halaqah by Sana Habib, Markaz Islamic Center'
-    },
-    {'id': 2, 'title': 'Allah`s love for Ibrahim (AS)', 'subtitle': 'yyy'}
-  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
