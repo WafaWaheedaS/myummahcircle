@@ -33,7 +33,7 @@ class _MyMessagePageState extends State<MyMessagePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kAppPrimaryColor,
-        title: Text(kAppName),
+        title: Text('Hira Ahmed'),
         centerTitle: true,
       ),
       body: Container(
