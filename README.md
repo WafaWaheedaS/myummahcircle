@@ -1,5 +1,11 @@
 # Ikhwat
 
+**Table of Contents**
+
+[TOC]
+
+
+## Inspiration
 The inspiration behind this app comes from the all too familiar story/predicament that Qatari women face.  It's difficult to navigate through the different masaajid and find a tight knit circle where they can gain valuable friendships, seek knowledge, volunteer, etc. 
 They scramble and make do with whatever resources they can find online, reaching out to masaajids and getting bits of information here and there, only to find that the timings don't match up, or that she can't attend the halaqah due to language barrier. 
 
