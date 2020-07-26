@@ -1,6 +1,6 @@
 # Ikhwat
 
-![oops](https://drive.google.com/uc?export=view&id=1CrVuQi_5lay1PyLnIH-eB7YljNRDrBCV)
+![logo](https://drive.google.com/uc?export=view&id=1CrVuQi_5lay1PyLnIH-eB7YljNRDrBCV)
 
 **Table of Contents**
 
@@ -74,7 +74,7 @@ Search
 
 
 ## Architecture
-![](https://drive.google.com/uc?export=view&id=158jtaVW481Q2Darg60VVMzBq-cJHdw75)
+![](https://drive.google.com/uc?export=view&id=16FgQqenYTvbJ6ce7CJr1TwelOk2u7_R2)
 
 
 ## What is next for Ikhwat
