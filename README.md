@@ -9,7 +9,10 @@
   * [Mac:](#mac-)
 - [Executing app](#executing-app)
 - [Current Features](#current-features)
+- [Some screens](#some-screens)
+- [Architecture](#architecture)
 - [What is next for Ikhwat](#what-is-next-for-ikhwat)
+
 
 
 
@@ -63,6 +66,10 @@ flutter run
 Login:
 
 ![](https://drive.google.com/uc?export=view&id=1EhTr8e29LNzMMN2DJrTSHukteBjnKoO7)
+
+Search
+![](https://drive.google.com/uc?export=view&id=12Wh2FwCZfihnpCr0QYEld2CndyL5I8zA)
+
 
 ## Architecture
 ![](https://drive.google.com/uc?export=view&id=158jtaVW481Q2Darg60VVMzBq-cJHdw75)
