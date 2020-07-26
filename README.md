@@ -1,5 +1,8 @@
 # Ikhwat
 
+![](https://drive.google.com/uc?export=view&id=1CrVuQi_5lay1PyLnIH-eB7YljNRDrBCV/view)
+
+
 **Table of Contents**
 
 - [Inspiration](#inspiration)
@@ -23,7 +26,7 @@ They scramble and make do with whatever resources they can find online, reaching
 
 ## What it Does
 
-The“Ikhwat”mobile app aims to bridge this gap in the Qatari community. It provides a simple and efficient way to browse for local events, join groups, and connect with like minded sisters.
+The “Ikhwat” mobile app aims to bridge the gap between the non Arab muslim sisters and the islamic activities in and around Doha. It is an aggregator platform for Islamic Community Circles, Islamic Events and local scholars. It provides a simple and efficient way to browse for local events, join groups, and connect with like minded sisters.
 
 ## Requirements
 
