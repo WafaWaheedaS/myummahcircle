@@ -64,6 +64,9 @@ Login:
 
 ![](https://drive.google.com/uc?export=view&id=1EhTr8e29LNzMMN2DJrTSHukteBjnKoO7)
 
+## Architecture
+![](https://drive.google.com/uc?export=view&id=158jtaVW481Q2Darg60VVMzBq-cJHdw75)
+
 
 ## What is next for Ikhwat
 We hope to make this the go to app for all your islamic community needs.
