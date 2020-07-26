@@ -2,7 +2,17 @@
 
 **Table of Contents**
 
-[TOC]
+- [Inspiration](#inspiration)
+- [What it Does](#what-it-does)
+- [Requirements](#requirements)
+  * [Windows:](#windows-)
+  * [Mac:](#mac-)
+- [Executing app](#executing-app)
+- [Current Features](#current-features)
+- [What is next for Ikhwat](#what-is-next-for-ikhwat)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## Inspiration
