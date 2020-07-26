@@ -1,7 +1,6 @@
 # Ikhwat
 
-![](https://drive.google.com/uc?export=view&id=1CrVuQi_5lay1PyLnIH-eB7YljNRDrBCV/view)
-
+![oops](https://drive.google.com/uc?export=view&id=1CrVuQi_5lay1PyLnIH-eB7YljNRDrBCV)
 
 **Table of Contents**
 
