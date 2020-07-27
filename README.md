@@ -4,16 +4,17 @@
 
 **Table of Contents**
 
-- [Inspiration](#inspiration)
-- [What it Does](#what-it-does)
-- [Requirements](#requirements)
-  * [Windows:](#windows-)
-  * [Mac:](#mac-)
-- [Executing app](#executing-app)
-- [Current Features](#current-features)
-- [Some screens](#some-screens)
-- [Architecture](#architecture)
-- [What is next for Ikhwat](#what-is-next-for-ikhwat)
+- [Ikhwat](#ikhwat)
+  - [Inspiration](#inspiration)
+  - [What it Does](#what-it-does)
+  - [Requirements](#requirements)
+    - [Windows:](#windows)
+    - [Mac:](#mac)
+  - [Executing app](#executing-app)
+  - [Current Features](#current-features)
+  - [App Screenshots](#app-screenshots)
+  - [Architecture](#architecture)
+  - [What is next for Ikhwat](#what-is-next-for-ikhwat)
 
 
 
@@ -63,7 +64,7 @@ flutter run
 - Searching events, communities and Daiyees
 - Connecting to Daiyees
 
-## Some screens
+## App Screenshots
 
 Login:
 
@@ -74,7 +75,7 @@ Search
 
 
 ## Architecture
-![](https://drive.google.com/uc?export=view&id=16FgQqenYTvbJ6ce7CJr1TwelOk2u7_R2)
+![](https://drive.google.com/file/d/1vz_L7lNUXPJj33uob4XfspHVX-UpaTJ2/view?usp=sharing)
 
 
 ## What is next for Ikhwat
