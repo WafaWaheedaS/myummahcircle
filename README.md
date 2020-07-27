@@ -75,7 +75,7 @@ Search
 
 
 ## Architecture
-![](https://drive.google.com/uc?export=view&id=1vz_L7lNUXPJj33uob4XfspHVX-UpaTJ2)
+![](https://drive.google.com/uc?export=view&id=1gXSZ3V_PU8Yypjy1AGdMciZkKUl4iWe4)
 
 
 ## What is next for Ikhwat
